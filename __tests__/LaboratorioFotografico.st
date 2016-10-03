@@ -1,16 +1,27 @@
 "
-LaboratorioFotografico new llama a init, inicializando las variables de instacia:
+LaboratorioFotografico new llama a init,
+inicializando las variables de instacia:
   fotografos,
   fotos,
   albumesPendientes,
   albumesImpresos
 como OrderedCollections
 "
-|a|
-a := LaboratorioFotografico new.
-a.
+|lab|
+lab := LaboratorioFotografico new.
 
-a getAlbumesImpresos.
-a getAlbumesPendientes.
-a getFotografos.
-a getFotos.
+lab getAlbumesImpresos.
+lab getAlbumesPendientes.
+lab getFotografos.
+lab getFotos.
+
+"
+  <LaboratorioFotografico nuevoFotografo> crea un fotografo,
+  lo agrega a la lista de fotografos y lo devuelve.
+"
+|lab unFotografo|
+lab := LaboratorioFotografico new.
+
+unFotografo := lab nuevoFotografo: #(agregar datos del fotografo).
+
+lab getFotografos.

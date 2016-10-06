@@ -1,9 +1,9 @@
-[ ] Incorporación y baja de fotógrafos con la información requerida.
-[ ] Incorporación de clientes.
+[x] Incorporación y baja de fotógrafos con la información requerida.
+[x] Incorporación de clientes.
 [ ] Carga, modificación y eliminación de fotografías al sitio.
 [ ] Creación de un álbum. Esto implica seleccionar fotografías, tamaño y tipo de papel.
 [ ] Impresión de álbum.
-[ ] Consulta de cantidad de fotos sacadas por un fotógrafo.
+[x] Consulta de cantidad de fotos sacadas por un fotógrafo.
 [ ] Consulta de cantidad de álbumes impresos antes o después de una determinada fecha.
-[ ] Consulta del costo de un álbum dado.
+[x] Consulta del costo de un álbum dado.
 [ ] Consulta del tiempo promedio de demora en impresión de un álbum.
